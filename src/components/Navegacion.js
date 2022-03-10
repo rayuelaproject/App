@@ -10,13 +10,13 @@ export default class Navegacion extends React.Component {
 		return <div className="actionbar">
 			{comienzo === false ?
 			<>
-				<button className="actions" onClick={() => window.location.href='https://soniasoleracotanilla.github.io/RAYUELA/'}>Back Home</button>
+				<button className="actions" onClick={() => window.location.href='https://rayuelaproject.github.io/RAYUELA/'}>Back Home</button>
 				<button className="actions" onClick={this.props.comenzar}>Start</button>
 			</>
 				: 
 				terminado === false ? 
 					<>
-							<button className="actions2" onClick={() => window.location.href='https://soniasoleracotanilla.github.io/RAYUELA/'}>
+							<button className="actions2" onClick={() => window.location.href='https://rayuelaproject.github.io/RAYUELA/'}>
 								<img src={house} alt=""></img>
 							</button>
 							{(index === (0) || revisando === true) ? <></>: <button className="actions" onClick={this.clickAnterior}>Previous</button> }
@@ -36,7 +36,7 @@ export default class Navegacion extends React.Component {
 							titulos={titulos}
                     	/>
                     	</div>
-						<button className="actions2" onClick={() => window.location.href='https://soniasoleracotanilla.github.io/RAYUELA/'}>
+						<button className="actions2" onClick={() => window.location.href='https://rayuelaproject.github.io/RAYUELA/'}>
 								<img src={house} alt=""></img>
 						</button>
 						<>
@@ -64,7 +64,7 @@ export default class Navegacion extends React.Component {
 									titulos={titulos}
 								/>
 							</div>
-							<button className="actions2" onClick={() => window.location.href='https://soniasoleracotanilla.github.io/RAYUELA/'}>
+							<button className="actions2" onClick={() => window.location.href='https://rayuelaproject.github.io/RAYUELA/'}>
 								<img src={house} alt=""></img>
 							</button>
 							<button className="actions" onClick={this.props.volver}>Return</button>

@@ -11,6 +11,7 @@ export default class Cuerpo extends React.Component {
 			</div>
 		) 
 
+		
 
 	}
 

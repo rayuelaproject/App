@@ -7,7 +7,7 @@ export default class Cuerpo extends React.Component {
         const {foto} = this.props;
 		return(
 			<div className="attachment">
-				<img className="foto" alt="" src={"App/images/"+foto}/>
+				<img className="foto" alt="" src={"images/"+foto}/>
 			</div>
 		) 
 
